@@ -17,7 +17,7 @@ The simulation illustrates the physical distinction between acoustic and optical
 
 ---
 
-# 1. Lattice Geometry
+# Lattice Geometry
 
 We consider a two-dimensional Bravais lattice with lattice constant $a$.
 
@@ -39,7 +39,7 @@ The second atom is shifted row-wise by $a/2$, producing a staggered two-atom bas
 
 ---
 
-# 2. Harmonic Approximation
+# Harmonic Approximation
 
 Atoms interact via a nearest-neighbor harmonic spring constant $K$.
 
@@ -69,7 +69,7 @@ where
 
 ---
 
-# 3. Dispersion Relation
+# Dispersion Relation
 
 The longitudinal phonon frequencies satisfy
 
@@ -105,7 +105,7 @@ The two branches correspond to:
 
 ---
 
-# 4. Long-Wavelength Limit
+# Long-Wavelength Limit
 
 For small wavevector $k \to 0$:
 
@@ -120,8 +120,7 @@ where $v_s$ is the sound velocity.
 ### Optical Mode
 
 $$
-\omega_{\text{op}}(k \to 0)
-=
+\omega_{\text{op}}(k \to 0) =
 \sqrt{
 2K
 \left(
@@ -137,7 +136,7 @@ Thus:
 
 ---
 
-# 5. Atomic Displacements
+# Atomic Displacements
 
 The displacement fields for the two branches are:
 
@@ -146,8 +145,7 @@ The displacement fields for the two branches are:
 Atoms move **in phase**:
 
 $$
-\mathbf{u}_M(\mathbf{R},t)
-=
+\mathbf{u}_M(\mathbf{R},t) =
 \mathbf{u}_m(\mathbf{R},t).
 $$
 
@@ -158,9 +156,7 @@ $$
 Atoms move **out of phase**:
 
 $$
-\mathbf{u}_M(\mathbf{R},t)
-=
--
+\mathbf{u}_M(\mathbf{R},t) = -
 \mathbf{u}_m(\mathbf{R},t).
 $$
 
@@ -168,7 +164,7 @@ These displacement relations are implemented directly in the time-dependent anim
 
 ---
 
-# 6. Numerical Implementation
+# Numerical Implementation
 
 The simulation is implemented in Python using:
 
@@ -179,8 +175,7 @@ The simulation is implemented in Python using:
 The atomic positions are updated according to
 
 $$
-\mathbf{R}(t)
-=
+\mathbf{R}(t) =
 \mathbf{R}_0
 +
 \mathbf{u}(\mathbf{R}_0,t).
@@ -188,9 +183,3 @@ $$
 
 ---
 
-# 7. Running the Simulation
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
