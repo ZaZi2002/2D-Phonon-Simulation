@@ -11,7 +11,9 @@ The project combines:
 - Time-dependent lattice animation  
 - Exportable GIF visualization  
 
-The simulation illustrates the physical distinction between acoustic and optical branches and the influence of mass contrast on phonon spectra.
+The simulation illustrates the physical distinction between acoustic and optical branches.
+
+![2D_LA_LO](https://github.com/user-attachments/assets/bf9c8a9e-b056-4e65-b890-bdd3902d510b)
 
 ---
 
@@ -125,7 +127,7 @@ $$
 \left(
 \frac{1}{M} + \frac{1}{m}
 \right)
-}.
+}
 $$
 
 Thus:
